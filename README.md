@@ -11,5 +11,5 @@ This project leverages machine learning techniques to predict diabetes based on 
 ### Local Setup
 1. Clone this repository:
    ```bash
-   git clone https://github.com/yourusername/Diabetes-Predictor.git
+   git clone https://github.com/PriyanshSrivastava0305/Diabetes-Predictor
    cd Diabetes-Predictor
