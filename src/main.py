@@ -1,4 +1,4 @@
-from data_visualization import load_data, data_visualization
+from src.data_visualization import load_data, data_visualization
 from model_training import load_and_preprocess_data, train_model, evaluate_model
 from predict import get_user_input, predict_diabetes
 
