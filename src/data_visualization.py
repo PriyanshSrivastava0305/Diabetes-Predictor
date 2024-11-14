@@ -3,7 +3,7 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 
 def load_data():
-    df = pd.read_csv(r"./dataset/diabetes.csv")
+    df = pd.read_csv(r"../dataset/diabetes.csv")
     return df
 
 def data_visualization(df):

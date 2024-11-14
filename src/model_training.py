@@ -4,7 +4,7 @@ from sklearn.linear_model import LogisticRegression
 from sklearn.metrics import accuracy_score
 
 def load_and_preprocess_data():
-    df = pd.read_csv(r"./dataset/diabetes.csv")
+    df = pd.read_csv(r"../dataset/diabetes.csv")
     df.dropna(inplace=True)
     X = df.drop(['Outcome'], axis=1)
     y = df['Outcome']
